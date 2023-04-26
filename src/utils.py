@@ -8,6 +8,7 @@ from src.base import Message
 from discord import Message as DiscordMessage
 from typing import Optional, List
 import discord
+import re
 
 from src.constants import MAX_CHARS_PER_REPLY_MSG, INACTIVATE_THREAD_PREFIX
 
